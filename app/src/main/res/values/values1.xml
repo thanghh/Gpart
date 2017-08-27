@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_array">
+        <item>Bãi sau</item>
+        <item>Tượng chúa dang tay</item>
+        <item>Bạch Dinh</item>
+        <item>Bãi trước</item>
+        <item>Ngọn hải đăng</item>
+    </string-array>
+</resources>

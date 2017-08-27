@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/layout_haidang"
+                  android:layout_width="match_parent"
+                  android:layout_height="100dp"
+
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="match_parent"
+
+        ></ImageView>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="Ngọn hải đăng"
+                      android:textSize="18dp"
+                      android:textStyle="bold"
+            android:id="@+id/tv_name"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="description..."
+                      android:textSize="14dp"
+                      android:id="@+id/tv_des"
+            />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkboxdelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center" android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:visibility="visible"/>
+    </LinearLayout>
+
+</LinearLayout>

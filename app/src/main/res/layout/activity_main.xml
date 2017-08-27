@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeeee"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="40dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/shapeborder1"
+    android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="10dp"
+                   android:src="@android:drawable/ic_menu_search"
+        />
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+        android:background="@null"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/layout_1"
+                  android:layout_width="match_parent"
+                  android:layout_height="120dp"
+                  android:layout_margin="15dp"
+                  android:padding="10dp"
+
+                  android:background="@drawable/shapeborder"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                    android:background="@drawable/shapeborder1"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/suoi_da"
+        ></ImageView>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+            <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="Suoi Da - Ho Da Xanh..."
+                      android:textSize="18dp"
+                      android:textColor="#8b8b8b"
+                      android:textStyle="bold"/>
+            <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="description..."
+                      android:textColor="#8b8b8b"
+                      android:textSize="14dp"
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textSize="14dp"
+                    android:background="@color/colorAccent"
+                    android:textColor="#8b8b8b"
+                    android:text="Details"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/layout_2"
+                  android:layout_width="match_parent"
+                  android:layout_height="150dp"
+                  android:layout_margin="15dp"
+                  android:padding="10dp"
+                  android:background="@drawable/shapeborder"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/shapeborder1"
+                   android:src="@drawable/ho_da_xanh"
+        ></ImageView>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+            <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="Ngọn hải đăng"
+                      android:textSize="18dp"
+                      android:textColor="#8b8b8b"
+                      android:textStyle="bold"/>
+            <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="description..."
+                      android:textSize="14dp"
+                      android:textColor="#8b8b8b"
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textSize="14dp"
+                    android:background="@color/colorAccent"
+                    android:textColor="#8b8b8b"
+                    android:text="Details"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/layout_haidang"
+                  android:layout_width="match_parent"
+                  android:layout_height="150dp"
+                  android:layout_margin="15dp"
+                  android:padding="10dp"
+                  android:background="@drawable/shapeborder"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/shapeborder1"
+                   android:src="@drawable/nui_dinh"
+        ></ImageView>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+            <TextView android:id="@+id/tv_name"
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="Ngọn hải đăng"
+                      android:textSize="18dp"
+                      android:textColor="#8b8b8b"
+                      android:textStyle="bold"/>
+            <TextView android:id="@+id/tv_des"
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:text="description..."
+                      android:textColor="#8b8b8b"
+                      android:textSize="14dp"
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textSize="14dp"
+                    android:background="@color/colorAccent"
+                    android:textColor="#8b8b8b"
+                    android:text="Details"
+            />
+        </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
